@@ -1,0 +1,17 @@
+Scenarios
+
+1) start with period
+    - is comment
+    - check first token for period
+2) 4th token is period, >=4 tokens
+    - Token 1: label - store it
+    - Token 2: mneumonic - check for validity and bytes
+    - Token 3: operand
+    - Token 4+: comments
+3) 3rd token is period, >=3 tokens
+    - Token 1: mneumonic
+    - Token 2: operand
+    - Token 3+: comments
+4) 3rd token no period, >=3 tokens
+    - Token 1: label - store it
+    - token 
